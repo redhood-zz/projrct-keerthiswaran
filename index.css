@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(keerthi1.jpg);
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    font-family: Arial,sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.transparent-box{
+    background: rgba(255,255,255,0.6);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    text-align:center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.transparent-btn{
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #e9c008;
+    border: 1xp solid rgba(255, 255, 255, 0.3);
+    padding: 12px 24px;
+    backdrop-filter: blur(6px);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    margin: 12px;
+    box-shadow: 0 4px 20px rgba(255,255,255,0.1);
+    text-decoration: none;
+    display: inline-block; 
+}
+
+.transparent-btn:hover{
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.3);
+    color: #000;
+}
